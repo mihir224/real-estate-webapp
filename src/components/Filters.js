@@ -8,7 +8,7 @@ function Filters(){
     // }
     const [selectedLoc,setLoc]=React.useState("");
     function handleChange(event){
-        
+        console.log(event.target.value);
     }
     return(
         <div class="FiltersNav" >
