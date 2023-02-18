@@ -1,0 +1,100 @@
+#cardDiv{
+   margin:30px;
+ 
+}
+.test{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:20px;
+    flex-shrink: 0;
+}
+#card{
+    border-radius:10px;
+    font-family: "Montserrat";
+    border:1px transparent;
+    height:52vh;
+    width:21vw;
+    background-color: white;
+}
+#cardBody{
+  text-align: start;
+  margin:0.5em;
+  margin-top:14em;
+  cursor: pointer;
+ 
+}
+
+#priceTitle{
+    text-align: left;
+    color: #6D67E4;
+}
+#price{
+    font-size: 20px;
+}
+#pm{
+    opacity: 0.7;
+    font-size: 12px;   
+}
+#place:hover{
+    text-decoration: underline;
+}
+#address{
+    opacity: 0.4;
+    font-size: 14px;
+}
+#address:hover{
+    text-decoration: underline;
+}
+hr{
+    opacity: 0.3;
+}
+ul{
+   display: flex;
+   flex-direction: row;
+   list-style: none;
+   justify-content:space-around;
+   align-items: flex-start;
+   padding: 0%;
+   opacity: 0.6;
+   font-weight: 600;
+   font-size: 12px;
+}
+li:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:400px){
+    .test{
+        flex-direction: column;  
+    }
+    #cardBody{
+        margin-top: 20em;
+        font-size: 8px;
+      }
+      #price{
+          font-size: 8px;
+      }
+      #pm{
+        font-size: 7px;   
+    }
+      #address{
+        opacity: 0.4;
+        font-size: 8px;
+    }
+   ul{
+       font-size: 6px;
+   }
+   .FilterDiv>div{
+       font-size: 8px;
+   }
+   select{
+       font-size: 8px;
+   }
+   #searchBtn{
+       font-size: 8px;
+       width: fit-content;
+   }
+  }

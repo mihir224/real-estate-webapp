@@ -1,0 +1,63 @@
+.FiltersNav{
+    font-family: "Montserrat";
+    font-weight: 600;
+    height: 12vh;
+    width:71vw;
+    font-size: 12px;
+    color:#888585;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:5em;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.filterItems{
+    width: 12em;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.filterLabel{
+    padding-left: 4px;
+}
+select{
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-align: left;
+    font-family: "Montserrat";
+    font-size: 15.5px;
+    font-weight: 600;
+    margin-top: 5px;
+    cursor: pointer;    
+}
+#when{
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-align: left;
+    font-family: "Montserrat";
+    font-size: 15.5px;
+    font-weight: 600;
+    margin-top: 5px;
+    cursor: pointer;  
+
+}
+#searchBtn{
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    height: 60%;
+    background-color: violet;
+    border-radius:5px;
+    width:10%;
+    border:1px solid transparent;
+}
+
+.vertical{
+    border-left: 1px solid;
+    height: 40px;
+}
