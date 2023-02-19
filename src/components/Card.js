@@ -1,5 +1,5 @@
 import React from "react";
-import "../Card.css";
+import "../styles/Card.css";
 import BedIcon from '@mui/icons-material/Bed';
 import BathtubIcon from '@mui/icons-material/Bathtub';
 import SquareFootIcon from '@mui/icons-material/SquareFoot';
